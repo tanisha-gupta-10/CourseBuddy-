@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.colGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 100px;
+}
+
+.firstHalf {
+    margin: auto;
+    height: 100px;
+}                    
+
+.heading {
+    padding: 21px;
+}
+
+.box{
+    background:#cfcece;
+    text-align: center;
+    width: 350px;
+    height: 150px;
+    margin: 20px;
+}
+
+.smallHeading {
+    font-size: 30px;
+    padding: 52px;
+}
+
+.colGrid a {
+    text-decoration: none;
+    color: black;
+}
+
+.syllabus {
+    display: block;
+    max-width: 1000px;
+    margin: 50px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.box:hover {
+    background:  #495057;
+    color: white;
+    border-radius: 25px;
+    transition: 0.5s ease-in-out;
+}

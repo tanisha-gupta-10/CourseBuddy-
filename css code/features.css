@@ -1,0 +1,9 @@
+.secRight {
+    vertical-align: middle;
+    margin: 100px auto;
+    height: auto;
+}
+
+#services a {
+    text-decoration: none;
+}

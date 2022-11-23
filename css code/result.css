@@ -1,0 +1,53 @@
+.colGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 200px;
+}
+
+.box{
+    background: linear-gradient(to right, #84bfea, #153268 );
+    text-align: center;
+    width: 350px;
+    height: 150px;
+    margin: 20px;
+}
+
+.smallHeading1 {
+    font-size: 40px;
+    padding: 52px;
+}
+
+.smallHeading2 {
+    font-size: 40px;
+    padding: 28px;
+}
+
+.new {
+    height: 40vh;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 55%;
+    vertical-align: middle;
+    padding: 70px;
+}
+
+.result {
+    display: block;
+    max-width: 1000px;
+    margin: 100px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.colGrid a {
+    text-decoration: none;
+    color: black;
+}
